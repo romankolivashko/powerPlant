@@ -1,4 +1,4 @@
-# (Application Name)
+# Power Plant
 
 #### (Brief Description of Application)
 
