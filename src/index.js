@@ -60,16 +60,3 @@ $(document).ready(function() {
     $('#soil-value').text(`Soil: ${currentState.soil}`);
   });
 });
-
-let removeDuplicates= function(nums){
-    if(!nums.length) return 0;
-
-    let i = 0;
-    for (let j = 1; j < nums.length; j++){
-      if (nums[i] !== num[j]){
-        i++;
-        nums[i] = nums[j];
-      }
-    }
-    return i + 1;
-}
